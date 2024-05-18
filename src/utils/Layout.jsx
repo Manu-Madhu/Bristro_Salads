@@ -5,13 +5,13 @@ import { Outlet } from "react-router-dom";
 const Layout = () => {
   return (
     <div>
-      <header className="max-w-[1280px] mx-auto w-full ">
+      <header className="max-w-full mx-auto w-full ">
         <Nav />
       </header>
       <section className="">
         <Outlet />
       </section>
-      <footer className="max-w-[1280px] mx-auto w-full">
+      <footer className="max-w-full mx-auto w-full">
         <Footer />
       </footer>
     </div>
