@@ -16,11 +16,9 @@ const Nav = () => {
     <div className="bg-[#F9DB79]">
       <div className="bg-neutral-800">
         <div className=" max-w-[1280px] mx-auto text-white flex flex-col sm:flex-row py-4 justify-center items-center sm:gap-5">
-          <div className="text-center">
             <p className="text-xs sm:text-sm leading-4 tracking-wider">
               Salad Bistro Trivandrum, PIN 695121 | Daily 10AM-10PM
             </p>
-          </div>
           <div className="flex items-center justify-center mt-4 sm:mt-0 gap-3">
             <a
               href="#"
