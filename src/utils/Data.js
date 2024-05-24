@@ -25,3 +25,12 @@ export const CarousalData = [
     { id: 11, img: img11 },
     { id: 13, img: img12 },
 ]
+
+import menuImg1 from '../assets/menu/viewImages/RED WINE VIN SALAD.png'
+
+export const menuOptions = [
+    { id: 1, img: menuImg1, name: "RED WINE VIN SALAD", 
+    description: "something will coming soon", 
+    price: "1000", 
+    category: "salad" }
+]

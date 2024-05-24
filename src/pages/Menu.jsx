@@ -4,7 +4,7 @@ import FlavorManner from "../components/menu/FlavorManner"
 
 const Menu = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center w-full">
       <FlavorManner/>
       <FlavorItems/>
     </div>
