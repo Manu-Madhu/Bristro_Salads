@@ -63,6 +63,7 @@ const Home = () => {
           title: "we deliver",
           button: "ORDER ONLINE",
           link: "/menu",
+          color:"#FFBFB3"
         }}
       />
       {/* 4th part */}
@@ -77,6 +78,7 @@ const Home = () => {
         }}
       />
       <HorizontalPart img={banner3} data={{}} />
+
       <div className="flex flex-col items-center justify-center w-full overflow-hidden">
         <div className="py-10 max-w-[1280px] mx-auto ">
           <h1 className="font-primaryFont text-[#2F2E2E] text-4xl tracking-wide">

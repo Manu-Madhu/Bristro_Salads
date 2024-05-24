@@ -3,12 +3,12 @@ import banner from "../../assets/home/Banner1.jpg";
 
 const HorizontalPart = ({img,data}) => {
   return (
-    <div className="-full">
+    <div className="w-full "  style={{ backgroundColor: data?.color }}>
       <div
         className="h-[80vh] md:h-[90vh] w-full"
         style={{
           background: `url(${img})`,
-          backgroundSize: "cover",
+          backgroundSize: `contain`,
           width: "full",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
