@@ -17,10 +17,10 @@ const SecondPart = ({ img, imagePosition, content }) => {
           
           {/* desktop view */}
           <div className={`${ imagePosition === "left" ? "text-start" : "text-end"} hidden sm:block`}>
-            <h1 className="font-bold text-3xl">{content?.title}</h1>
-            <h5 className="font-semibold text-">{content?.subHeading}</h5>
-            <p className="my-5 font-semibold">{content?.description}</p>
-            <button className="p-2 sm:w-[150px] border-2 w-[200px] font-semibold border-primaryColor mt-10">
+            <h1 className="font- text-3xl font-primaryFont tracking-wider">{content?.title}</h1>
+            <h5 className="font-semibold text-[#2F2E2E] font-subFont mt-2 tracking-widest">{content?.subHeading}</h5>
+            <p className="my-5 text-[14px] text-[#2F2E2E] leading-normal font-contentFont">{content?.description}</p>
+            <button className="p-2 sm:w-[150px] font-contentFont  border-2 w-[200px] font-semibold border-primaryColor mt-10">
               MENU
             </button>
           </div>
@@ -28,7 +28,7 @@ const SecondPart = ({ img, imagePosition, content }) => {
           {/* mobile view */}
           <div className={`sm:hidden`}>
             <h1 className="font-bold text-3xl">{content?.title}</h1>
-            <h5 className="font-semibold text-">{content?.subHeading}</h5>
+            <h5 className="font-semibold">{content?.subHeading}</h5>
             <p className="my-5 font-semibold">{content?.description}</p>
             <button className="p-2 sm:w-[150px] border-2 w-[200px] font-semibold border-primaryColor mt-10">
               MENU

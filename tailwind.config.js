@@ -6,8 +6,15 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
+      colors: {
         primaryColor: "#2F2E2E"
+      },
+      fontFamily: {
+        primaryFont: "Agency FB Bold",
+        subFont: "Kaushan Script",
+        contentFont: "Inter Regular",
+        contentBoldFont: "Inter Bold",
+        scrollFont: "Karantina Regular",
       }
     },
   },

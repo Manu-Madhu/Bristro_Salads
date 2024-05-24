@@ -46,17 +46,17 @@ const Nav = () => {
       <div className="max-w-[1280px] mx-auto hidden sm:flex">
         <div className="p-9 py-4 mx-auto w-full">
           <div className="sm:flex justify-between items-center text-black font-semibold">
-            <ul className="md:flex md:items-center gap-5">
-              <li className="md:my-0">
+            <ul className="md:flex md:items-center gap-5  font-contentFont">
+              <li className="md:my-0 hover:text-white">
                 <a href="/menu">MENU</a>
               </li>
-              <li className="md:my-0">
+              <li className="md:my-0 hover:text-white">
                 <a href="/about-us">ABOUT</a>
               </li>
-              <li className="md:my-0">
+              <li className="md:my-0 hover:text-white">
                 <a href="/subscription">SUBSCRIPTION</a>
               </li>
-              <li className="md:my-0">
+              <li className="md:my-0 hover:text-white">
                 <a href="/contact-us">CONTACT US</a>
               </li>
             </ul>

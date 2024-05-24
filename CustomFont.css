@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Agency FB Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agency FB Bold"),
+    url("../src/assets/font/AGENCYB.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kaushan Script'), 
+    url("../src/assets/font/KaushanScript-Regular.woff") format('woff');
+}
