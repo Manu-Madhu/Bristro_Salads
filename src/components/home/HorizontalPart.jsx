@@ -8,7 +8,7 @@ const HorizontalPart = ({img,data}) => {
         className="h-[80vh] md:h-[90vh] w-full"
         style={{
           background: `url(${img})`,
-          backgroundSize: `contain`,
+          backgroundSize: `cover`,
           width: "full",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
