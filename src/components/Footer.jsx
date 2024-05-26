@@ -1,4 +1,4 @@
-import logo2 from "../assets/Logo 1.png";
+import devLogo from "../assets/developerLogo.png";
 
 const Footer = () => {
   return (
@@ -50,9 +50,9 @@ const Footer = () => {
             <img src={logo2} alt="" className="w-28 h-28" />
           </div> */}
           <div className="mt-5">
-            <p className="tracking-wider text-xs sm:text-sm">
+            <p className="tracking-wider text-xs sm:text-sm flex relative">
               ©2024 by Salad Bistro. <br className="sm:hidden" /> Developed by
-              Gom Digital Consultancy
+              Gom Digital Consultancy. <img src={devLogo} alt="logo"  className="w-3 h-3 absolute bottom-0 right-[25%] md:left-[35%]"/>
             </p>
           </div>
         </div>

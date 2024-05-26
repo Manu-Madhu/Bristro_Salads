@@ -11,7 +11,7 @@ const Layout = () => {
       <section className="">
         <Outlet />
       </section>
-      <footer className="max-w-full mx-auto w-full">
+      <footer className="max-w-full mx-auto w-full ">
         <Footer />
       </footer>
     </div>

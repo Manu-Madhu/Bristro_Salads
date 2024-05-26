@@ -45,19 +45,19 @@ const Nav = () => {
       {/* desktop view */}
       <div className="max-w-[1280px] mx-auto hidden sm:flex">
         <div className="p-9 py-4 mx-auto w-full">
-          <div className="sm:flex justify-between items-center text-black font-semibold">
-            <ul className="md:flex md:items-center gap-5  font-contentFont">
-              <li className="md:my-0 hover:text-white">
-                <a href="/menu">MENU</a>
+          <div className="sm:flex justify-between items-center text-[#2F2E2E] font-semibold">
+            <ul className="md:flex md:items-center gap-5 font-extralight font-primaryFont text-[18px] tracking-wider">
+              <li className="md:my-0 hover:text-[#706D6D]">
+                <Link to={"/menu"}>MENU</Link>
               </li>
-              <li className="md:my-0 hover:text-white">
-                <a href="/about-us">ABOUT</a>
+              <li className="md:my-0 hover:text-[#706D6D]">
+                <Link to={"/about-us"}>ABOUT</Link>
               </li>
-              <li className="md:my-0 hover:text-white">
-                <a href="/subscription">SUBSCRIPTION</a>
+              <li className="md:my-0 hover:text-[#706D6D]">
+                <Link to={"/subscription"}>SUBSCRIPTION</Link>
               </li>
-              <li className="md:my-0 hover:text-white">
-                <a href="/contact-us">CONTACT US</a>
+              <li className="md:my-0 hover:text-[#706D6D]">
+                <Link to={"/contact-us"}>CONTACT US</Link>
               </li>
             </ul>
             <Link to={"/"} className="sm:align-left">
