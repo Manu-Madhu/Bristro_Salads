@@ -11,7 +11,7 @@ const ContactUs = () => {
           <h1 className="uppercase tracking-wider md:tracking-[18px] text-[30px] md:text-[55px]">
             Leave a Message
           </h1>
-          <p className=" font-thin tracking-wide md:tracking-wider text-sm md:text-[18px] mt-2 md:mt-0">
+          <p className=" font-thin tracking-wide md:tracking-wider leading-5 md:text-[18px] mt-2 md:mt-0">
             To help us find the best for you, send the preferred message to us,
             for the best customer support.
           </p>

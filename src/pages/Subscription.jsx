@@ -4,7 +4,7 @@ const Subscription = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full">
       <FlavorManner
-        titleOne={"ABOUT"}
+        titleOne={"New"}
         titleTwo={"Subscription"}
         backgroundCol={"#FFB996"}
       />

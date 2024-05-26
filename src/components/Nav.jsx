@@ -5,20 +5,21 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from "../assets/home/logoHome.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
 
 const Nav = () => {
   const [state, setState] = useState(false);
+  const location = useLocation();
   return (
     <div className="bg-[#F9DB79]">
       <div className="bg-neutral-800">
-        <div className=" max-w-[1280px] mx-auto text-white flex flex-col sm:flex-row py-4 justify-center items-center sm:gap-5">
-            <p className="text-xs sm:text-sm leading-4 tracking-wider">
-              Salad Bistro Trivandrum, PIN 695121 | Daily 10AM-10PM
-            </p>
+        <div className=" max-w-[1280px] mx-auto text-white flex flex-col sm:flex-row py-4 justify-center items-center sm:gap-5 font-primaryFont ">
+          <p className="text-xs sm:text-sm  tracking-widest">
+            Salad Bistro Trivandrum, PIN 695121 | Daily 10AM-10PM
+          </p>
           <div className="flex items-center justify-center mt-4 sm:mt-0 gap-3">
             <a
               href="#"
@@ -47,16 +48,32 @@ const Nav = () => {
         <div className="p-9 py-4 mx-auto w-full">
           <div className="sm:flex justify-between items-center text-[#2F2E2E] font-semibold">
             <ul className="md:flex md:items-center gap-5 font-extralight font-primaryFont text-[18px] tracking-wider">
-              <li className="md:my-0 hover:text-[#706D6D]">
+              <li
+                className={`md:my-0 hover:text-[#706D6D] ${
+                  location?.pathname === "/menu" && "text-[#706D6D]"
+                }`}
+              >
                 <Link to={"/menu"}>MENU</Link>
               </li>
-              <li className="md:my-0 hover:text-[#706D6D]">
+              <li
+                className={`md:my-0 hover:text-[#706D6D] ${
+                  location?.pathname === "/about-us" && "text-[#706D6D]"
+                }`}
+              >
                 <Link to={"/about-us"}>ABOUT</Link>
               </li>
-              <li className="md:my-0 hover:text-[#706D6D]">
+              <li
+                className={`md:my-0 hover:text-[#706D6D] ${
+                  location?.pathname === "/subscription" && "text-[#706D6D]"
+                }`}
+              >
                 <Link to={"/subscription"}>SUBSCRIPTION</Link>
               </li>
-              <li className="md:my-0 hover:text-[#706D6D]">
+              <li
+                className={`md:my-0 hover:text-[#706D6D] ${
+                  location?.pathname === "/contact-us" && "text-[#706D6D]"
+                }`}
+              >
                 <Link to={"/contact-us"}>CONTACT US</Link>
               </li>
             </ul>
@@ -96,17 +113,37 @@ const Nav = () => {
             />
           </div>
           <ul className="flex flex-col items-center gap-5 font-semibold">
-            <li className="md:my-0">
-              <a href="/menu">MENU</a>
+            <li
+              onClick={(e) => setState(!state)}
+              className={`md:my-0 hover:text-[#706D6D] ${
+                location?.pathname === "/menu" && "text-[#706D6D]"
+              }`}
+            >
+              <Link to={"/menu"}>MENU</Link>
             </li>
-            <li className="md:my-0">
-              <a href="/about-us">ABOUT</a>
+            <li
+              onClick={(e) => setState(!state)}
+              className={`md:my-0 hover:text-[#706D6D] ${
+                location?.pathname === "/about-us" && "text-[#706D6D]"
+              }`}
+            >
+              <Link to={"/about-us"}>ABOUT</Link>
             </li>
-            <li className="md:my-0">
-              <a href="/subscription">SUBSCRIPTION</a>
+            <li
+              onClick={(e) => setState(!state)}
+              className={`md:my-0 hover:text-[#706D6D] ${
+                location?.pathname === "/subscription" && "text-[#706D6D]"
+              }`}
+            >
+              <Link to={"/subscription"}>SUBSCRIPTION</Link>
             </li>
-            <li className="md:my-0">
-              <a href="/contact-us">CONTACT US</a>
+            <li
+              onClick={(e) => setState(!state)}
+              className={`md:my-0 hover:text-[#706D6D] ${
+                location?.pathname === "/contact-us" && "text-[#706D6D]"
+              }`}
+            >
+              <Link to={"/contact-us"}>CONTACT US</Link>
             </li>
           </ul>
         </div>
