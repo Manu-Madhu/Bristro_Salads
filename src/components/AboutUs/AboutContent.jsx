@@ -43,8 +43,6 @@ const AboutContent = () => {
           backgroundAttachment: "fixed",
         }}
       >
-        {/* <img src={cover} alt="" className="max-w-8xl" /> */}
-        <div>halo</div>
       </div>
 
       {/* -------2nd section---- */}
