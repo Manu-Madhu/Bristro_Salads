@@ -14,16 +14,16 @@ import img12 from "../assets/menu/Raggi Hot Chocolate.jpg"
 export const CarousalData = [
     { id: 1, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/pro3.jpg" },
     { id: 5, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/Cucumber+Ginger.jpg" },
-    { id: 2, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/pro1.jpg" },
+    // { id: 2, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/pro1.jpg" },
     { id: 3, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/pro3.jpg" },
     { id: 4, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/Mango+Panakotta.jpg" },
     { id: 6, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/HONEY+MUSTARD+CHICKEN+SALAD.jpg" },
-    { id: 7, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/0D8A9871.jpg" },
+    // { id: 7, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/0D8A9871.jpg" },
     { id: 8, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/shakshuka.jpg" },
     { id: 9, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/Avacado+banana+smoothi.jpg" },
     { id: 10, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/CHICKEN+AND+QUINOA+CURRY+WITH+STEAM+RICE+AND+SAUTED+VEGGIES.jpg" },
     { id: 11, img: 'https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/egg+frittatta.jpg' },
-    { id: 13, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/0D8A9871.jpg" },
+    // { id: 13, img: "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/0D8A9871.jpg" },
 ]
 
 import menuImg1 from '../assets/menu/viewImages/RED WINE VIN SALAD.png'
