@@ -5,7 +5,7 @@ import product2 from "../assets/products/pro2.jpg";
 import product3 from "../assets/products/pro3.jpg";
 import product4 from "../assets/products/pro4.jpg";
 import HorizontalPart from "../components/home/HorizontalPart";
-// import banner from "../assets/home/Banner1.jpg";
+import banner from "../assets/home/Banner1.jpg";
 import banner2 from "../assets/home/Banner2.png";
 // import banner3 from "../assets/home/Banner3.jpg";
 // import img1 from "../assets/menu/0D8A9866.jpg";
@@ -38,7 +38,7 @@ const Home = () => {
       />
 
       <HorizontalPart
-        img={"https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/Banner1.jpg"}
+        img={banner}
         data={{
           top: "ENJOY",
           title: "DAIRY FREE",

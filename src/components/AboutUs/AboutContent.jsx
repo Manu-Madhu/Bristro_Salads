@@ -1,4 +1,3 @@
-import React from "react";
 import cover from "../../assets/menu/0D8A9899.jpg";
 
 const AboutContent = () => {
