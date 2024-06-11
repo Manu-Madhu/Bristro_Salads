@@ -1,6 +1,6 @@
 import LandingPage from "../components/home/LandingPage";
 import SecondPart from "../components/home/CommonPart";
-import product1 from "../assets/products/pro1.jpg";
+// import product1 from "../assets/products/pro1.jpg";
 import product2 from "../assets/products/pro2.jpg";
 import product3 from "../assets/products/pro3.jpg";
 import product4 from "../assets/products/pro4.jpg";
@@ -13,6 +13,7 @@ import banner2 from "../assets/home/Banner2.png";
 import { CarousalData } from "../utils/Data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import FinalPart from "../components/home/FinalPart";
 
 const Home = () => {
   // const settings = {
@@ -30,18 +31,20 @@ const Home = () => {
         img={product4}
         imagePosition={"left"}
         content={{
-          title: "OUR FLAVORS",
-          subHeading: "Fresh n Tasty!",
-          description:
-            "I m a paragraph. Click here to add your own text and edit me. It s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
+          title: "Who we are",
+          subHeading: "Trivandrum’s top fresh and flavorful salad spot!",
+          description: `Get ready for a taste bud adventure with our health-packed menu that's bursting with
+over 10 varieties of crunchy salads, scrumptious rice bowls, hearty oats, and excellent egg
+dishes! We're serving up nutrition with a side of fun, and you can enjoy it all from the comfort of
+your home. So, buckle up foodies, it's time to enjoy the ride to a healthier you!`,
         }}
       />
 
       <HorizontalPart
         img={banner}
         data={{
-          top: "ENJOY",
-          title: "DAIRY FREE",
+          // top: "ENJOY",
+          title: "Explore our Menu!",
           button: "MENU",
           link: "/menu",
         }}
@@ -64,7 +67,7 @@ const Home = () => {
           title: "we deliver",
           button: "ORDER ONLINE",
           link: "/menu",
-          color:"#FFBFB3"
+          color: "#FFBFB3",
         }}
       />
       {/* 4th part */}
@@ -78,7 +81,12 @@ const Home = () => {
             "I m a paragraph. Click here to add your own text and edit me. It s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
         }}
       />
-      <HorizontalPart img={"https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/Banner3.jpg"} data={{}} />
+      <FinalPart
+        img={
+          "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/Banner3.jpg"
+        }
+        data={{}}
+      />
 
       <div className="flex flex-col items-center justify-center w-full overflow-hidden">
         <div className="py-10 max-w-[1280px] mx-auto ">
