@@ -13,7 +13,7 @@ const Footer = () => {
                 <br />
                 Trivandrum,
                 <br />
-                PIN 695121
+                PIN 695004
               </p>
             </div>
             <div className="mb-5">
@@ -29,7 +29,7 @@ const Footer = () => {
               <p>
                 OPEN DAILY
                 <br />
-                10AM-10PM
+                7:30 AM-11:00 PM 
               </p>
             </div>
             <div className="mb-5">

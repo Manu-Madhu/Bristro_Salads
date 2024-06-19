@@ -7,6 +7,7 @@ import product4 from "../assets/products/pro4.jpg";
 import HorizontalPart from "../components/home/HorizontalPart";
 import banner from "../assets/home/Banner1.jpg";
 import banner2 from "../assets/home/Banner2.png";
+import video from '../assets/home/video.mp4'
 // import banner3 from "../assets/home/Banner3.jpg";
 // import img1 from "../assets/menu/0D8A9866.jpg";
 // import Slider from "react-slick";
@@ -34,14 +35,15 @@ const Home = () => {
           title: "Who we are",
           subHeading: "Trivandrum’s top fresh and flavorful salad spot!",
           description: `Get ready for a taste bud adventure with our health-packed menu that's bursting with
-over 10 varieties of crunchy salads, scrumptious rice bowls, hearty oats, and excellent egg
-dishes! We're serving up nutrition with a side of fun, and you can enjoy it all from the comfort of
-your home. So, buckle up foodies, it's time to enjoy the ride to a healthier you!`,
+           over 10 varieties of crunchy salads, scrumptious rice bowls, hearty oats, and excellent egg
+           dishes! We're serving up nutrition with a side of fun, and you can enjoy it all from the comfort of
+           your home. So, buckle up foodies, it's time to enjoy the ride to a healthier you!`,
         }}
       />
 
       <HorizontalPart
         img={banner}
+        video={video}
         data={{
           // top: "ENJOY",
           title: "Explore our Menu!",
@@ -61,7 +63,7 @@ your home. So, buckle up foodies, it's time to enjoy the ride to a healthier you
         }}
       />
       <HorizontalPart
-        img={banner2}
+        img={banner}
         data={{
           top: "GET YOURS",
           title: "we deliver",

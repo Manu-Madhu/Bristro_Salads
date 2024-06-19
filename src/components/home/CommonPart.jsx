@@ -1,7 +1,7 @@
 
 const SecondPart = ({ img, imagePosition, content }) => {
   return (
-    <div  className="flex flex-col sm:flex-row items-center justify-center relative w-full sm:h-[650px] overflow-hidden mb-10 sm:mb-0">
+    <div  className={`flex flex-col sm:flex-row items-center justify-center relative w-full sm:h-[650px] overflow-hidden mb-10 sm:mb-0 `}>
       <div
         className={`sm:w-1/2 h-full
         ${ imagePosition === "left" ? "left-0 " : "right-0" } absolute `}
