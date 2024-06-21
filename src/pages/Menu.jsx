@@ -4,9 +4,9 @@ import FlavorManner from "../components/menu/FlavorManner";
 import { menuOptions } from "../utils/Data";
 
 const Menu = () => {
-  useEffect(()=>{
-   window.scrollTo(0,0)
-  },[])
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="flex flex-col items-center justify-center w-full mb-40">
       <FlavorManner
@@ -15,8 +15,10 @@ const Menu = () => {
         backgroundCol={"#afe2d1"}
       />
       {menuOptions.map((items) => (
-        < FlavorItems key={items?.id} data={items} />
+        <FlavorItems key={items?.id} data={items} />
       ))}
+
+     
     </div>
   );
 };

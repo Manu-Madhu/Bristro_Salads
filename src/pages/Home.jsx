@@ -6,28 +6,19 @@ import product3 from "../assets/products/pro3.jpg";
 import product4 from "../assets/products/pro4.jpg";
 import HorizontalPart from "../components/home/HorizontalPart";
 import banner from "../assets/home/Banner1.jpg";
-import banner2 from "../assets/home/Banner2.png";
 import video from '../assets/home/video.mp4'
-// import banner3 from "../assets/home/Banner3.jpg";
-// import img1 from "../assets/menu/0D8A9866.jpg";
-// import Slider from "react-slick";
 import { CarousalData } from "../utils/Data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import FinalPart from "../components/home/FinalPart";
 
 const Home = () => {
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 6,
-  //   slidesToScroll: 1,
-  // };
+
 
   return (
     <div>
       <LandingPage />
+      
       <SecondPart
         img={product4}
         imagePosition={"left"}
@@ -41,9 +32,7 @@ const Home = () => {
           With our carefully crafted menu of fresh, wholesome dishes, we're here to take the guesswork out of healthy eating. From vibrant salads to hearty mains 
           and guilt-free desserts, each item is designed to nourish your body and tantalize your taste buds. Join us as we redefine what it means to eat well, one delicious meal at a time!`,
         }}
-        
       />
-
       <HorizontalPart
         img={banner}
         video={video}
