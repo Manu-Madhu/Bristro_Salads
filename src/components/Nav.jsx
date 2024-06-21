@@ -124,14 +124,6 @@ const Nav = () => {
             <li
               onClick={(e) => setState(!state)}
               className={`md:my-0 hover:text-[#706D6D] ${
-                location?.pathname === "/about-us" && "text-[#706D6D]"
-              }`}
-            >
-              <Link to={"/about-us"}>ABOUT</Link>
-            </li>
-            <li
-              onClick={(e) => setState(!state)}
-              className={`md:my-0 hover:text-[#706D6D] ${
                 location?.pathname === "/subscription" && "text-[#706D6D]"
               }`}
             >
