@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import FlavorItems from "../components/menu/FlavorItems";
 import FlavorManner from "../components/menu/FlavorManner";
 import { menuOptions } from "../utils/Data";
 
 const Menu = () => {
+  useEffect(()=>{
+   window.scrollTo(0,0)
+  },[])
   return (
     <div className="flex flex-col items-center justify-center w-full mb-40">
       <FlavorManner

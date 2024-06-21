@@ -4,7 +4,7 @@ const FinalPart = ({ img, data }) => {
   return (
     <div className="w-full " style={{ backgroundColor: data?.color }}>
       <div
-        className="h-[80vh] md:h-[90vh] w-full"
+        className="h-[80vh] md:h-[90vh] w-full relative"
         style={{
           background: `url(${img})`,
           backgroundSize: `cover`,
@@ -14,7 +14,7 @@ const FinalPart = ({ img, data }) => {
           backgroundAttachment: "fixed",
         }}
       >
-        <div className="max-w-[1280px] mx-auto w-full h-full">
+        <div className="max-w-[1280px] mx-auto w-full h-full ">
           <div
             data-aos="fade-down"
             className="w-full h-full uppercase text-center flex flex-col items-center justify-center text-white gap-7 md:gap-8"
@@ -34,6 +34,7 @@ const FinalPart = ({ img, data }) => {
             </button>
           </div>
         </div>
+
       </div>
     </div>
   );

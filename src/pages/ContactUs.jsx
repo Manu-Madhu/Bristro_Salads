@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 const ContactUs = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+   },[])
   return (
     <div className="min-h-[75vh] mb-20 md:mb-40">
       <div className="bg-[#F9DB79] h-[30px] hidden md:flex"></div>

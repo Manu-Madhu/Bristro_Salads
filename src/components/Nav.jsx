@@ -22,19 +22,15 @@ const Nav = () => {
           </p>
           <div className="flex items-center justify-center mt-4 sm:mt-0 gap-3">
             <a
-              href="#"
+              href="https://www.facebook.com/THESALADBISTRO/"
+              target="blank"
               className="w-6 h-6 rounded-full bg-white flex items-center justify-center"
             >
               <FontAwesomeIcon icon={faFacebookF} className="text-black " />
             </a>
             <a
-              href="#"
-              className="w-6 h-6 rounded-full bg-white flex items-center justify-center"
-            >
-              <FontAwesomeIcon icon={faTwitter} className="text-black" />
-            </a>
-            <a
-              href="#"
+              href="https://www.instagram.com/the_salad_bistro/"
+              target="blank"
               className="w-6 h-6 rounded-full bg-white flex items-center justify-center"
             >
               <FontAwesomeIcon icon={faInstagram} className="text-black" />

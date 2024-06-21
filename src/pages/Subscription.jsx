@@ -7,8 +7,12 @@ import side3 from "../assets/subscription/bg1.png";
 import product2 from "../assets/products/pro2.jpg";
 import product3 from "../assets/products/pro3.jpg";
 import product4 from "../assets/products/pro4.jpg";
+import { useEffect } from "react";
 
 const Subscription = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+   },[])
   return (
     <div className="flex flex-col items-center justify-center w-full ">
       <FlavorManner

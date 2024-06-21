@@ -33,12 +33,15 @@ const Home = () => {
         imagePosition={"left"}
         content={{
           title: "Who we are",
+          button: 'false',
           subHeading: "Trivandrum’s top fresh and flavorful salad spot!",
-          description: `Get ready for a taste bud adventure with our health-packed menu that's bursting with
-           over 10 varieties of crunchy salads, scrumptious rice bowls, hearty oats, and excellent egg
-           dishes! We're serving up nutrition with a side of fun, and you can enjoy it all from the comfort of
-           your home. So, buckle up foodies, it's time to enjoy the ride to a healthier you!`,
+          description: `Welcome to the salad bistro where healthy eating is made simple.
+          Founded by Vrinda Vinod and her sister Varsha Vinod, our kitchen is a labor of love born from a desire to make nutritious eating easy and enjoyable.
+          
+          With our carefully crafted menu of fresh, wholesome dishes, we're here to take the guesswork out of healthy eating. From vibrant salads to hearty mains 
+          and guilt-free desserts, each item is designed to nourish your body and tantalize your taste buds. Join us as we redefine what it means to eat well, one delicious meal at a time!`,
         }}
+        
       />
 
       <HorizontalPart
@@ -46,43 +49,57 @@ const Home = () => {
         video={video}
         data={{
           // top: "ENJOY",
-          title: "Explore our Menu!",
-          button: "MENU",
+          title: "Treat Yourself!",
+          button: "ORDER NOW",
           link: "/menu",
         }}
       />
+
       {/* 3rd Part */}
       <SecondPart
         img={product2}
         imagePosition={"right"}
         content={{
-          title: "OUR FLAVORS",
+          title: "What makes Salad Bistro special",
           subHeading: "Fresh n Tasty!",
+          button:'true',
+          link:"/menu",
+          buttonName: "OUR PLATES",
           description:
-            "I m a paragraph. Click here to add your own text and edit me. It s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
+            `I m a paragraph. Click here to add your own text and edit me. It s easy. Just click “Edit Text” or double click me to add your own 
+            content and make changes to the font.`,
         }}
       />
+      
       <HorizontalPart
         img={banner}
         data={{
           top: "GET YOURS",
           title: "we deliver",
-          button: "ORDER ONLINE",
-          link: "/menu",
+          button: "SUBSCRIBE NOW",
+          link: "/subscription",
           color: "#FFBFB3",
         }}
       />
+
       {/* 4th part */}
       <SecondPart
         img={product3}
         imagePosition={"left"}
         content={{
-          title: "OUR FLAVORS",
-          subHeading: "Fresh n Tasty!",
+          title: "BEST HEALTHY FOOD CENTER",
+          button:'true',
+          subHeading: "Celebrating Our Achievement",
+          link:"/contact-us",
+          buttonName: "CONTACT US",
           description:
-            "I m a paragraph. Click here to add your own text and edit me. It s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
+           `Salad Bistro was honored to receive the prestigious Metro Food Award for "Best Healthy Food Center"! This 
+           award recognized our dedication to providing delicious and nutritious meals that promote wellness. We are grateful 
+           to our loyal customers and hardworking team whose support was essential in achieving this recognition.`,
         }}
       />
+
+
       <FinalPart
         img={
           "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/Banner3.jpg"
@@ -97,11 +114,6 @@ const Home = () => {
           </h1>
         </div>
         <div className="w-full flex items-start overflow-x-scroll ">
-          {/* <img src={img1} alt="pics" className="w-[100px] h-[100px] object-cover" />
-            <img src={img1} alt="pics" className="w-[100px] h-[100px] object-cover" />
-            <img src={img1} alt="pics" className="w-[100px] h-[100px] object-cover" />
-            <img src={img1} alt="pics" className="w-[100px] h-[100px] object-cover" /> */}
-          {/* <Slider {...settings}> */}
           {CarousalData.map((items) => (
             <div key={items?.id} className="min-w-[350px]  h-[250px]">
               <img
@@ -112,7 +124,6 @@ const Home = () => {
               />
             </div>
           ))}
-          {/* </Slider> */}
         </div>
       </div>
     </div>
