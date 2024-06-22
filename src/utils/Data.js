@@ -38,33 +38,37 @@ import menuImg9 from '../assets/menu/viewImages/3.png'
 import menuImg10 from '../assets/menu/BUFFALO CHICKEN SALAD.jpg'
 import menuImg11 from '../assets/menu/viewImages/1.png'
 import menuImg12 from '../assets/menu/viewImages/9.png'
+// ALLDAY
 import menuImg13 from '../assets/menu/shakshuka.jpg'
 import menuImg14 from '../assets/menu/egg frittatta.jpg'
 import menuImg15 from '../assets/menu/Chilli garlic butter Fried eggs.jpg'
 import menuImg16 from '../assets/menu/oats with caramalized banana .jpg'
-import menuImg17 from '../assets/menu/noimage/Oats with Apple and Peanut Butter.png'
+import menuImg17 from '../assets/menu/noimage/Oats with Apple and Peanut Butter.jpg'
 import menuImg18 from '../assets/menu/OVERNIGHT OATS.jpg'
 import menuImg19 from '../assets/menu/Coconut milk oats.jpg'
+// MEALS
 import menuImg20 from '../assets/menu/noimage/Paneer Rise n Rice Combo.png'
-import menuImg21 from '../assets/menu/RICE N RISE COMBO.jpg'
-import menuImg22 from '../assets/menu/CHICKEN AND QUINOA CURRY WITH STEAM RICE AND SAUTED VEGGIES.jpg'
-import menuImg23 from '../assets/menu/CHICKEN AND QUINOA CURRY WITH STEAM RICE AND SAUTED VEGGIES.jpg'
+import menuImg21 from '../assets/menu/noimage/RICE N RISE COMBO.png'
+import menuImg22 from '../assets/menu/CHICKEN_AND_QUINOA_CURRY_WITH_STEAM_RICE_AND_SAUTED_VEGGIES.png'
+import menuImg23 from '../assets/menu/CHICKEN_AND_QUINOA_CURRY_WITH_STEAM_RICE_AND_SAUTED_VEGGIES.png'
+// DRINK
 import menuImg24 from '../assets/menu/Healthy peanut protein Smoothie.jpg'
-import menuImg25 from '../assets/menu/noimage/Muskmelon Honey Smoothie.png'
+import menuImg25 from '../assets/menu/noimage/Muskmelon Honey Smoothie.jpg'
 import menuImg26 from '../assets/menu/Watermelon protein Smoothie.jpg'
-import menuImg27 from '../assets/menu/Watermelon protein Smoothie.jpg'
-import menuImg28 from '../assets/menu/noimage/Apple Beetroot Carrot Juice.png'
+import menuImg27 from '../assets/menu/noimage/Papaya Fat Burner Smoothie.jpg'
+import menuImg28 from '../assets/menu/noimage/Apple Beetroot Carrot Juice.jpg'
 import menuImg29 from '../assets/menu/Cucumber Ginger.jpg'
-import menuImg30 from '../assets/menu/noimage/Lime Juice with Honey & Chia Seeds.png'
-import menuImg31 from '../assets/menu/noimage/Watermelon Juice.png'
-import menuImg32 from '../assets/menu/noimage/Pineapple Juice.png'
-import menuImg33 from '../assets/menu/noimage/Grape Juice.png'
-import menuImg34 from '../assets/menu/noimage/Mosambi Juice.png'
-import menuImg35 from '../assets/menu/noimage/Pomegranate Juice.png'
-import menuImg36 from '../assets/menu/noimage/Tender Coconut Shake.png'
+import menuImg30 from '../assets/menu/noimage/Lime Juice with Honey & Chia Seeds.jpg'
+import menuImg31 from '../assets/menu/noimage/Watermelon Juice.jpg'
+import menuImg32 from '../assets/menu/noimage/Pineapple Juice.jpg'
+import menuImg33 from '../assets/menu/noimage/Grape Juice.jpg'
+import menuImg34 from '../assets/menu/noimage/Mosambi Juice.jpg'
+import menuImg35 from '../assets/menu/noimage/Pomegranate Juice.jpg'
+import menuImg36 from '../assets/menu/noimage/Tender Coconut Shake.jpg'
+// DESSERTS
 import menuImg37 from '../assets/menu/Raggi Hot Chocolate.jpg'
-import menuImg38 from '../assets/menu/noimage/Fruit Bowl with Nuts.png'
-import menuImg39 from '../assets/menu/noimage/Honey Drizzled Fruit Bowl.png'
+import menuImg38 from '../assets/menu/noimage/Fruit Bowl with Nuts.jpg'
+import menuImg39 from '../assets/menu/noimage/Honey Drizzled Fruit Bowl.jpg'
 
 
 
@@ -101,7 +105,7 @@ export const menuOptions = [
                 category: "salad"
             },
             {
-                id: 1, img: menuImg1, name: "Summer Kidney Bean Salad",
+                id: 1, img: menuImg4, name: "Summer Kidney Bean Salad",
                 description: "Flavorful meal with corn, beans, bell peppers and vegetables, tossed in a light and tangy cilantro based Greek yogurt dressing.",
                 price: "195",
                 category: "salad"
