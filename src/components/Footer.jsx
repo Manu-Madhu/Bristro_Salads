@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="mb-5">
               <h4 className="text-base pb-3 font-bold text-[15px]">ADDRESS</h4>
               <p className="leading-tight">
-                Salad bistro,
+                The Salad bistro,
                 <br />
                 Trivandrum,
                 <br />
@@ -51,7 +51,7 @@ const Footer = () => {
           </div> */}
           <div className="mt-5">
             <p className="tracking-wider text-xs sm:text-sm flex relative">
-              ©2024 by Salad Bistro. <br className="sm:hidden" /> Developed by
+              ©2024 by The Salad Bistro. <br className="sm:hidden" /> Developed by
               Gom Digital Consultancy. <img src={devLogo} alt="logo"  className="w-3 h-3 absolute bottom-0 right-[25%] md:left-[35%]"/>
             </p>
           </div>

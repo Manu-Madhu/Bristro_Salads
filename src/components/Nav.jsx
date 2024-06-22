@@ -18,7 +18,7 @@ const Nav = () => {
       <div className="bg-neutral-800">
         <div className=" max-w-[1280px] mx-auto text-white flex flex-col sm:flex-row py-4 justify-center items-center sm:gap-5 font-primaryFont ">
           <p className="text-xs sm:text-sm  tracking-widest">
-            Salad Bistro Trivandrum, PIN 695004 | Daily 7:30AM-11:00PM
+            The Salad Bistro Trivandrum, PIN 695004 | Daily 7:30AM-11:00PM
           </p>
           <div className="flex items-center justify-center mt-4 sm:mt-0 gap-3">
             <a
