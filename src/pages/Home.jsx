@@ -97,9 +97,9 @@ const Home = () => {
       />
 
       <div className="flex flex-col items-center justify-center w-full overflow-hidden">
-        <div className="py-10 max-w-[1280px] mx-auto ">
-          <h1 className="font-primaryFont text-[#2F2E2E] text-4xl tracking-wide">
-            #DOUBLE TAP
+        <div className="py-8 md:py-10 max-w-[1280px] mx-auto ">
+          <h1 className="font-primaryFont text-[#2F2E2E] text-2xl md:text-4xl tracking-wide">
+            #SCROLL FOR MORE IMAGES
           </h1>
         </div>
         <div className="w-full flex items-start overflow-x-scroll ">
