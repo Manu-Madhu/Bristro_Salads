@@ -1,6 +1,6 @@
 import LandingPage from "../components/home/LandingPage";
 import SecondPart from "../components/home/CommonPart";
-// import product1 from "../assets/products/pro1.jpg";
+import bnner from "../assets/home/Banner3.jpg";
 import product2 from "../assets/products/pro2.jpg";
 import product3 from "../assets/products/pro3.jpg";
 import product4 from "../assets/products/pro4.jpg";
@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div>
       <LandingPage />
-      
+
       <SecondPart
         img={product4}
         imagePosition={"left"}
@@ -51,15 +51,15 @@ const Home = () => {
         content={{
           title: "What makes Salad Bistro special",
           subHeading: "Fresh n Tasty!",
-          button:'true',
-          link:"/menu",
+          button: 'true',
+          link: "/menu",
           buttonName: "OUR PLATES",
           description:
             `I m a paragraph. Click here to add your own text and edit me. It s easy. Just click “Edit Text” or double click me to add your own 
             content and make changes to the font.`,
         }}
       />
-      
+
       <HorizontalPart
         img={banner}
         data={{
@@ -77,24 +77,24 @@ const Home = () => {
         imagePosition={"left"}
         content={{
           title: "BEST HEALTHY FOOD CENTER",
-          button:'true',
+          button: 'true',
           subHeading: "Celebrating Our Achievement",
-          link:"/contact-us",
+          link: "/contact-us",
           buttonName: "CONTACT US",
           description:
-           `Salad Bistro was honored to receive the prestigious Metro Food Award for "Best Healthy Food Center"! This 
+            `Salad Bistro was honored to receive the prestigious Metro Food Award for "Best Healthy Food Center"! This 
            award recognized our dedication to providing delicious and nutritious meals that promote wellness. We are grateful 
            to our loyal customers and hardworking team whose support was essential in achieving this recognition.`,
         }}
       />
 
 
-      <FinalPart
+      {/* <FinalPart
         img={
-          "https://juzastorage.s3.ap-southeast-2.amazonaws.com/test/Banner3.jpg"
+          bnner
         }
         data={{}}
-      />
+      /> */}
 
       <div className="flex flex-col items-center justify-center w-full overflow-hidden">
         <div className="py-8 md:py-10 max-w-[1280px] mx-auto ">

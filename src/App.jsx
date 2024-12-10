@@ -7,6 +7,7 @@ import Layout from "./utils/Layout";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Lenis from "lenis";
 
 function App() {
   useEffect(() => {
@@ -16,6 +17,19 @@ function App() {
       easing: "ease-out-cubic",
     });
   }, []);
+
+
+  useEffect(() => {
+    const lenis = new Lenis();
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+  }, []);
+
+
+
   return (
     <>
       <Router>
