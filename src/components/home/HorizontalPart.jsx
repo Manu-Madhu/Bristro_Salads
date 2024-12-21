@@ -44,13 +44,15 @@ const HorizontalPart = ({ img, data, video }) => {
             </div>
             {data?.link &&
               (data?.button === "ORDER NOW" ? (
-                <button  onClick={() => setModal(!modal)} className="p-3 text-nowrap bg-white sm:w-[150px] w-[200px] font-semibold text-black md:mt-5">
+                <button onClick={() => setModal(!modal)} className="p-3 text-nowrap bg-white sm:w-[150px] w-[200px] font-semibold text-black md:mt-5">
                   <Link >{data?.button}</Link>
                 </button>
               ) : (
-                <button className="p-3 bg-white sm:w-[150px] w-[200px] font-semibold text-black md:mt-5">
-                  <Link to={data?.link}>{data?.button}</Link>
-                </button>
+                <Link to={data?.link}>
+                  <button className="p-3 bg-white sm:w-[150px] w-[200px] font-semibold text-black md:mt-5">
+                    {data?.button}
+                  </button>
+                </Link>
               ))}
           </div>
         </div>
