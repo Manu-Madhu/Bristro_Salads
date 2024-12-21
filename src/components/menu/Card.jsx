@@ -14,13 +14,13 @@ const Card = ({ data }) => {
     <div
       key={data?.id}
       data-aos="fade-up"
-      className="md:w-[250px] md:h-[540px] l p-2 text-center flex flex-col items-center  md:pb-16 overflow-hidden"
+      className="md:w-[250px] md:h-[540px] l p-2 text-center flex flex-col items-center  md:pb-16 overflow-hidden md:border md:shadow-lg"
     >
-      <div className="md:w-[200px] md:h-[200px] rounded-full">
+      <div className="w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded-full">
         <img
           src={data?.img}
           alt=""
-          className="object-cover h-[150px] md:w-[200px]  md:h-[200px] rounded-full"
+          className="object-cover w-[150px] h-[150px] md:w-[200px]  md:h-[200px] rounded-full"
         />
       </div>
       <div className="h-full w-full flex flex-col items-center">
@@ -28,12 +28,12 @@ const Card = ({ data }) => {
           {data?.name}
         </p>
         <p
-          className="md:w-3/4 text-sm md:text-[16px] mt-2 text-center 
+          className="md:w-3/4 text-sm md:text-[16px] text-gray-500 mt-2 text-center 
         tracking-wide leading-none md:leading-5"
         >
           {data?.description}
         </p>
-        <p className="mt-3">Rs. {data?.price}</p>
+        <p className="mt-3 md:text-lg">Rs. {data?.price}</p>
       </div>
     </div>
   );

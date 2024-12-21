@@ -17,8 +17,6 @@ const Menu = () => {
       {menuOptions.map((items) => (
         <FlavorItems key={items?.id} data={items} />
       ))}
-
-     
     </div>
   );
 };

@@ -33,7 +33,7 @@ const Subscription = () => {
             subHeading: "Two rounds of delight",
             description: `Revisit the flavors that made your first 15 days deliciously memorable`,
           }}
-          rate={"7500"}
+          rate={"8700"}
           height={"800"}
         />
         <SubscriptionPlans
@@ -77,7 +77,7 @@ const Subscription = () => {
               },
             ]
           }}
-          rate={"1820"}
+          rate={"2170"}
           height={"800"}
         />
 
@@ -114,7 +114,7 @@ const Subscription = () => {
               },
               {
                 title: "day6",
-                content: `Chicken paneer salad`
+                content: `Chickpea paneer salad`
               },
               {
                 title: "day7",
@@ -122,15 +122,15 @@ const Subscription = () => {
               },
               {
                 title: "day8",
-                content: `Pita bowl with hummus`
+                content: `Quinoa chicken protein bowl`
               },
               {
                 title: "day9",
-                content: `classic ceaser salad`
+                content: `Coconut milk oats with nuts and chocolate`
               },
               {
                 title: "day10",
-                content: `shakshuka with garlic bread`
+                content: `Indian curry lush chicken salad`
               },
               {
                 title: "day11",
@@ -138,7 +138,7 @@ const Subscription = () => {
               },
               {
                 title: "day12",
-                content: `Honey Chicken salad`
+                content: `Mediterranean quinoa salad`
               },
               {
                 title: "day13",
@@ -150,11 +150,11 @@ const Subscription = () => {
               },
               {
                 title: "day15",
-                content: `buffalo chicken salad`
+                content: `Indian curry lush chicken salad`
               },
             ]
           }}
-          rate={"3825"}
+          rate={"4500"}
 
         />
       </div>
