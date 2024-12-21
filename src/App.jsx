@@ -28,8 +28,6 @@ function App() {
     requestAnimationFrame(raf);
   }, []);
 
-
-
   return (
     <>
       <Router>

@@ -1,15 +1,15 @@
+import { CarousalData } from "../utils/Data";
 import LandingPage from "../components/home/LandingPage";
 import SecondPart from "../components/home/CommonPart";
-import bnner from "../assets/home/Banner3.jpg";
 import product2 from "../assets/products/pro2.jpg";
 import product3 from "../assets/products/pro3.jpg";
 import product4 from "../assets/products/pro4.jpg";
 import HorizontalPart from "../components/home/HorizontalPart";
 import banner from "../assets/home/Banner1.jpg";
 import video from '../assets/home/video.mp4'
-import { CarousalData } from "../utils/Data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import bnner from "../assets/home/Banner3.jpg";
 import FinalPart from "../components/home/FinalPart";
 
 const Home = () => {
@@ -55,8 +55,11 @@ const Home = () => {
           link: "/menu",
           buttonName: "OUR PLATES",
           description:
-            `I m a paragraph. Click here to add your own text and edit me. It s easy. Just click “Edit Text” or double click me to add your own 
-            content and make changes to the font.`,
+            `At The Salad Bistro, we turn ordinary salads into a gourmet experience. What makes our salads 
+             truly special is the perfect balance of premium ingredients and mouthwatering flavors. We use fresh,
+             crisp romaine lettuce and pair it with innovative toppings, tasty oats, protein-packed egg varieties,
+             and our signature dressings to create salads that are both healthy and exciting. It’s not just about eating clean—it’s about LOVING what you eat.
+            `,
         }}
       />
 

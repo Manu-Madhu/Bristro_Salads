@@ -85,13 +85,13 @@ const HorizontalPart = ({ img, data, video }) => {
               <hr className=" w-full" />
               <div className="cursor-pointer group w-full flex items-center justify-center h-full ">
                 <a
-                  href="https://link.zomato.com/xqzv/rshare?id=5803219330563769 "
+                  href="https://link.zomato.com/xqzv/rshare?id=5803219330563769"
                   target="_blank"
                   className="flex  items-center justify-start gap-5 w-full"
                 >
                   <img
                     src={zomato}
-                    alt="swiggy"
+                    alt="zomato"
                     className="object-cover w-[60px]"
                   />
                   <h1 className="font-bold font-primaryFont tracking-wider text-lg group-hover:text-red-700">
